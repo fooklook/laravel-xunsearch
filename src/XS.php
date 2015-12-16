@@ -1,5 +1,5 @@
 <?php
-namespace App\Lib;
+namespace Fook\xunsearch;
 
 define('XS_CMD_NONE',	0);
 define('XS_CMD_DEFAULT',	XS_CMD_NONE);

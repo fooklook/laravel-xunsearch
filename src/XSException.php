@@ -1,5 +1,5 @@
 <?php
-namespace App\Lib;
+namespace Fook\xunsearch;
 class XSException extends \Exception
 {
     public function __toString()

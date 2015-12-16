@@ -1,5 +1,5 @@
 <?php
-namespace App\Lib;
+namespace Fook\xunsearch;
 
 class XSTokenizerSplit implements XSTokenizer
 {

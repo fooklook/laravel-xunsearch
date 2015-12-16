@@ -1,12 +1,5 @@
 <?php
-namespace App\Lib;
-
-use App\Lib\XSTokenizerFull;
-use App\Lib\XSTokenizerNone;
-use App\Lib\XSTokenizerScws;
-use App\Lib\XSTokenizerSplit;
-use App\Lib\XSTokenizerXlen;
-use App\Lib\XSTokenizerXstep;
+namespace Fook\xunsearch;
 
 class XSFieldMeta
 {
@@ -98,7 +91,7 @@ class XSFieldMeta
                 $name = 'XSTokenizer' . ucfirst($this->tokenizer);
                 $arg = null;
             }
-            $name = 'App\Lib\\'.$name;
+            $name = 'Fook\xunsearch\\'.$name;
             if (!class_exists($name)) {
                 $file = $name . '.class.php';
                 if (file_exists($file)) {
