@@ -1,0 +1,22 @@
+{
+    "name": "fook/laravel-xunsearch",
+    "description": "xunsearch搜索引擎SDK开发laravel版本",
+    "type": "php",
+    "license": "MIT",
+	"keywords": ["xunsearch", "laravel5", "SDK", "Search", "engine"],
+    "authors": [
+        {
+            "name": "fooklook",
+            "email": "xiashuo.he@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "Fook\\Xunsearch\\": "src"
+        }
+    } 
+}
